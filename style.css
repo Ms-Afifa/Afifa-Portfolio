@@ -373,7 +373,7 @@ section {
 .text-container {
   text-align: center;        /* center the text inside the container */
   margin: 0 auto;            /* center the container itself horizontally */
-  max-width: 700px;          /* optional: limits width for better readability */
+  max-width: 100px;          /* optional: limits width for better readability */
   padding: 1rem 1rem;        /* optional: internal spacing */
 }
 
