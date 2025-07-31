@@ -135,6 +135,25 @@ a:hover {
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
+
+.menu-links {
+  position: relative;
+  list-style: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
 /* Section Container */
 #skills-tools-section {
   padding: 100px 6%;
@@ -342,14 +361,24 @@ section {
   position: relative;
 }
 
+
 .about-containers {
   display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center;     /* center horizontally */
   gap: 2rem;
-  margin:2rem 0;
+  margin: 2rem 0;
 }
+
 .text-container {
-  margin-bottom: 2rem;
+  text-align: center;        /* center the text inside the container */
+  margin: 0 auto;            /* center the container itself horizontally */
+  max-width: 700px;          /* optional: limits width for better readability */
+  padding: 1rem 1rem;        /* optional: internal spacing */
 }
+
+
+
 
 .about-details-container {
   display: flex;
@@ -375,6 +404,30 @@ section {
   border-radius: 2rem;
   border: 0.1rem solid rgb(14, 14, 14);
   text-align: center;
+}
+
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.text-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-details-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.details-container {
+  margin-bottom: 20px;
 }
 
 
@@ -930,4 +983,5 @@ body.webproject1 {
     font-size: 16px;
   }
 }
+
 
