@@ -75,7 +75,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 40vh;
   background-color: #000000; /* Optional: ensure shadow shows up */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* <-- Shadow added */
   position: sticky; /* Optional: makes navbar stick to top */
@@ -1019,6 +1019,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
