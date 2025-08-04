@@ -150,7 +150,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(207, 207, 207);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -1019,6 +1019,12 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
+
+
+
+
+
 
 
 
