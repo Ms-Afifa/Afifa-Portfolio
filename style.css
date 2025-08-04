@@ -161,7 +161,7 @@ a:hover {
 }
 
 .menu-links.open {
-  max-height: 300px;
+  max-height: 450px;
 }
 
 .hamburger-icon.open span:first-child {
@@ -1019,6 +1019,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
