@@ -305,7 +305,7 @@ section {
 }
 
 /* PROFILE SECTION */
-#profile {
+#home {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -1019,6 +1019,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
