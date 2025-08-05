@@ -367,7 +367,7 @@ section {
 .btn {
   font-weight: 600;
   padding: 1rem;
-  width: 8rem;
+  width: 6.5rem;
   border-radius: 2rem;
   transition: all 300ms ease;
 }
@@ -988,6 +988,16 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
