@@ -361,7 +361,7 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 5rem;
 }
 
 .btn {
@@ -481,11 +481,11 @@ article .icon {
   position: relative;
 }
 
-.color-container {
-background: rgb(0, 0, 0);
+/*.color-container {
+background: rgb(0, 0, 0);*
  border: 0.1rem solid rgb(252, 252, 252);
  
-}
+}*/
 
 .project-img {
   border-radius: 2rem;
@@ -493,17 +493,16 @@ background: rgb(0, 0, 0);
   height: 70%;
 }
 
-.project-title {
+/*.project-title {
   margin: 1rem;
-  color: rgb(0, 0, 0);
-}
+  color: rgb(189, 75, 75);
+}*/
 
 .project-btn {
   color: rgb(207, 207, 207);
   border-color: rgb(255, 255, 255);
 }
   
-
 
 
 
@@ -989,7 +988,6 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
-
 
 
 
