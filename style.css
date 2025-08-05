@@ -361,7 +361,7 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 1rem;
 }
 
 .btn {
@@ -988,6 +988,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
