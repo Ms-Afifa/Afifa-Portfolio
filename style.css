@@ -18,7 +18,7 @@ background:linear-gradient(to right, #a8c0ff, #7f7dad);
 /* About Section */
 #about {
   /*background: linear-gradient(to bottom right, #fdfbfb, #ebedee);*/
-  /* background:linear-gradient(to right, #6689e3, #a09cec);*/ 
+  background:linear-gradient(to right, #6689e3, #a09cec);
   padding: 4rem 2rem;
   border-radius: 1rem;
 }
@@ -988,6 +988,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
