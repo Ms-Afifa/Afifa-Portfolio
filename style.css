@@ -593,13 +593,28 @@ body.project1 {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
+/* FOOTER */
+footer {
+  background: #000; /* black background */
+  padding: 3rem 2rem; /* increase height with padding */
+  text-align: center;
+  color: #d3d3d3;
+  margin-top: 3rem;
+}
+
+footer .nav-links {
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
 
 footer p {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 0.9rem;
-  color: #666;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #aaa;
 }
+
+
 
 /* Responsive Layout */
 @media (max-width: 768px) {
@@ -1111,6 +1126,7 @@ body.webproject3{
     height: 280px;
   }
 }
+
 
 
 
