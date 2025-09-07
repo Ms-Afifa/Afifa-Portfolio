@@ -923,7 +923,7 @@ body.webproject2 {
 
 body.webproject3{
   font-family: 'Poppins', sans-serif;
-  background-color: #f9f9f9;
+  background:linear-gradient(to right, #6689e3, #a09cec);
   padding: 20px;
 }
 
@@ -988,6 +988,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
