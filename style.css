@@ -595,39 +595,23 @@ body.project1 {
 }
 /* FOOTER */
 footer {
-  background: #000;
-  padding: 3rem 2rem;
+  background: #000; /* black background */
+  padding: 3rem 2rem; /* increase height with padding */
   text-align: center;
   color: #d3d3d3;
   margin-top: 3rem;
 }
 
-.footer-links {
-  display: flex;
+footer .nav-links {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.5rem 0;
-}
-
-.footer-links a {
-  color: #d3d3d3;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.footer-links a:hover {
-  color: #fff;
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
 }
 
 footer p {
-  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
   color: #aaa;
-  margin: 0;
 }
 
 
@@ -1124,6 +1108,7 @@ body.webproject3{
     justify-content: center;
   }
 }
+
 
 
 
