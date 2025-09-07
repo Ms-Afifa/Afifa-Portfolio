@@ -578,7 +578,7 @@ body.project1 {
 .resize-button {
   padding: 10px 20px;
   font-size: 1rem;
-  background: linear-gradient(135deg, #040404, #0d0e0e);
+  /*background: linear-gradient(135deg, #040404, #0d0e0e);*/ 
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -988,6 +988,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
