@@ -989,6 +989,111 @@ body.webproject3{
   transform: scale(1.03);
 }
 
+/* Mobile-first responsiveness */
+@media (max-width: 1024px) {
+  nav .nav-links {
+    display: none; /* hide desktop nav */
+  }
+  #hamburger-nav {
+    display: block; /* show hamburger */
+  }
+}
+
+/* Tablet screens */
+@media (max-width: 992px) {
+  section {
+    margin: 1.5rem 3rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .section__pic-container {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  nav {
+    height: 12vh;
+  }
+
+  section {
+    margin: 1rem 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .section__pic-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .skills-tools-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .tools-list li {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+
+  .gallery {
+    gap: 1.5rem;
+  }
+
+  .gallery-item {
+    flex: 0 1 90%; /* take full width on mobile */
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .section__pic-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .skills-tools-wrapper {
+    gap: 1rem;
+  }
+
+  .tools-list {
+    justify-content: center;
+  }
+}
+
 
 
 
