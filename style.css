@@ -1111,21 +1111,7 @@ body.webproject3{
 
 
 
-/* Mobile screens */
-@media (max-width: 768px) {
-  .section__pic-container {
-    width: 320px;
-    height: 320px;
-  }
-}
 
-/* Small phones */
-@media (max-width: 480px) {
-  .section__pic-container {
-    width: 280px;
-    height: 280px;
-  }
-}
 
 
 
