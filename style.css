@@ -25,28 +25,28 @@ background:linear-gradient(to right, #a8c0ff, #7f7dad);
 
 /* Skills Section */
 #skills-tools-section {
- background:linear-gradient(to right, #6689e3, #a09cec);
+/*background:linear-gradient(to right, #6689e3, #a09cec);*/ 
   padding: 4rem 2rem;
   border-radius: 1rem;
 }
 
 /* Web Projects Section */
 #Web-Designs {
- background:linear-gradient(to right, #6689e3, #a09cec);
+ /*background:linear-gradient(to right, #6689e3, #a09cec);*/ 
   padding: 4rem 2rem;
   border-radius: 1rem;
 }
 
 /* Mobile Projects Section */
 #Mob-Designs {
- background:linear-gradient(to right, #6689e3, #a09cec);
+/* background:linear-gradient(to right, #6689e3, #a09cec);*/ 
   padding: 4rem 2rem;
   border-radius: 1rem;
 }
 
 /* More Designs Section */
 #Full-Landing-Page-Designs {
-  background:linear-gradient(to right, #6689e3, #a09cec);
+ /* background:linear-gradient(to right, #6689e3, #a09cec);*/ 
   padding: 4rem 2rem;
   border-radius: 1rem;
 }
@@ -988,6 +988,7 @@ body.webproject3{
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
 
 
 
